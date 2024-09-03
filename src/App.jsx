@@ -9,20 +9,21 @@ import Cart from "./Cart";
 
 export default function App() {
   return (
-    <>
-      <div className="content">
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<h1>Just skate.</h1>} />
-              <Route path="/g" element={<h1>Just guguseli.</h1>} />
-            <Route path="/:category" element={<Products />} />
-            <Route path="/:category/:id" element={<Detail />} />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-        </main>
-      </div>
-      <Footer />
-    </>
+      <>
+        <div></div>
+        <div className="content">
+          <Header/>
+          <main>
+            <Routes>
+              <Route path="/" element={<h1>Just skate.</h1>}/>
+              <Route path="/g" element={<h1>Just guguseli.</h1>}/>
+              <Route path="/:category" element={<Products/>}/>
+              <Route path="/:category/:id" element={<Detail/>}/>
+              <Route path="/cart" element={<Cart/>}/>
+            </Routes>
+          </main>
+        </div>
+        <Footer/>
+      </>
   );
 }
