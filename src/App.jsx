@@ -10,7 +10,6 @@ import Cart from "./Cart";
 export default function App() {
   return (
       <>
-        <div></div>
         <div className="content">
           <Header/>
           <main>
