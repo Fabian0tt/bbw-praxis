@@ -1,0 +1,22 @@
+.regel {
+    margin-bottom: 20px;
+}
+
+.regel img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.regel h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.regel p {
+    font-size: 14px;
+    line-height: 1.5;
+}
